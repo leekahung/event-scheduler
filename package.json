@@ -1,0 +1,21 @@
+{
+  "name": "ai-agent-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf ./dist && tsc && cp src/*.md ./dist/src",
+    "start": "ts-node ./dist/src/index.js"
+  },
+  "dependencies": {
+    "openai": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.30",
+    "dotenv": "^16.5.0",
+    "typescript": "^5.8.3"
+  }
+}
