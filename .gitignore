@@ -1,4 +1,5 @@
 .env
+invite.ics
 
 node_modules
 dist
